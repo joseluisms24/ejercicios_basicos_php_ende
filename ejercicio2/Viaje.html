@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo del Tiempo de Viaje</title>
+</head>
+<body>
+    <h1>Calculadora de Tiempo de Viaje</h1>
+    <form action="Viaje.php" method="post">
+        <div>
+            <label for="distancia">Distancia (km):</label>
+            <input type="number" name="distancia" id="distancia" required>
+        </div>
+        <div>
+            <label for="velocidad">Velocidad Promedio (km/h):</label>
+            <input type="number" name="velocidad" id="velocidad" required>
+        </div>
+        <div>
+            <input type="submit" value="Calcular Tiempo">
+        </div>
+    </form>
+</body>
+</html>
